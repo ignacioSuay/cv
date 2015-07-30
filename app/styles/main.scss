@@ -1,6 +1,7 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "fontawesome/scss/font-awesome.scss";
 // endbower
 
 @import "creative";
@@ -13,8 +14,14 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
-section{
-  height: 1000px;
+.uniVal{
+  background: url("../images/uv.png");
+//  background-attachment: fixed;
+//  background-position: 100% 100%;
+//  background-repeat: no-repeat;
+  display: block;
+  width: 100px;
+  height: 100px;
 }
 
 body {
@@ -96,3 +103,5 @@ body {
     border-bottom: 0;
   }
 }
+
+
