@@ -14,15 +14,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 
-.uniVal{
-  background: url("../images/uv.png");
-//  background-attachment: fixed;
-//  background-position: 100% 100%;
-//  background-repeat: no-repeat;
-  display: block;
-  width: 100px;
-  height: 100px;
-}
+
 
 body {
   padding: 0;
@@ -105,3 +97,19 @@ body {
 }
 
 
+//////////////////////// IMAGES
+
+.uniVal{
+  background: url("../images/uv.png");
+  //  background-attachment: fixed;
+  //  background-position: 100% 100%;
+  //  background-repeat: no-repeat;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.uniOxf{
+  width: 100px;
+  height: 100px;
+}
