@@ -114,12 +114,6 @@ p{
   }
 }
 
-//@media (min-width: 1600px) {
-//  .container {
-//    width: 1540px !important;
-//  }
-//}
-
 
 //////////////////////// IMAGES
 
@@ -133,38 +127,96 @@ p{
   height: 100px;
 }
 
-//.uniOxf{
-//  width: 100px;
-//  height: 100px;
-//  margin-top: 20px;
-//  float: right;
-//  margin-right: 30px;
-//}
-//
-//.allocate{
-//  width: 100px;
-//  height: 100px;
-//  margin-top: 20px;
-//  float: right;
-//  margin-right: 30px;
-//}
+.tuDarmstadt{
+  width: 210px;
+  height: 100px;
+}
 
-#experience{
+#experience {
 
   img {
     margin-top: 20px;
     float: right;
     margin-right: 30px;
   }
-    .uniOxf{
-      width: 100px;
-      height: 100px;
-    }
+  .uniOxf {
+    width: 100px;
+    height: 100px;
+  }
 
-//    .allocate{
-//      width: 140px;
-//      height: 100px;
-//    }
+  .robotica {
+    width: 200px;
+    height: 100px;
+  }
+}
 
 
+  /***************************************/
+  //CONTACT ME
+  /***************************************/
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $gray-lighter;
+  input,
+  textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: none;
+    box-shadow: none !important;
+    resize: none;
+  }
+  label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+    -moz-transition: top 0.3s ease,opacity 0.3s ease;
+    -ms-transition: top 0.3s ease,opacity 0.3s ease;
+    transition: top 0.3s ease,opacity 0.3s ease;
+  }
+  &:not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid $gray-lighter;
+  }
+}
+
+.floating-label-form-group-with-value {
+  label {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.floating-label-form-group-with-focus {
+  label {
+    color: $brand-primary;
+  }
+}
+
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid $gray-lighter;
+}
+
+.contactTitle{
+  text-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+  color: #2c3e50;
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 0.3px;
+  line-height: 2em;
+  text-align: center;
 }
