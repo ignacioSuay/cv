@@ -10,10 +10,10 @@ body {
     height: 100%;
 }
 
-body {
-//    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
+//body {
+////    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+//  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+//}
 
 hr {
     max-width: 50px;
@@ -34,17 +34,17 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #3E79BD;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6 {
+//    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+//}
 
 p {
     margin-bottom: 20px;
@@ -96,7 +96,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #3E79BD;
 }
 
 .navbar-default .nav > li>a,
@@ -160,7 +160,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #3E79BD;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -401,9 +401,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #3E79BD;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #499BEA;
 }
 
 .btn-primary:active,

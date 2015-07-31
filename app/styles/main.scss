@@ -15,11 +15,23 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 
-
 body {
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6 {
+//  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+//}
+
+p{
+  line-height: 170%;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -75,9 +87,9 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+//  .container {
+//    max-width: 730px;
+//  }
 
   /* Remove the padding we set earlier */
   .header,
@@ -96,6 +108,18 @@ body {
   }
 }
 
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px !important;
+  }
+}
+
+//@media (min-width: 1600px) {
+//  .container {
+//    width: 1540px !important;
+//  }
+//}
+
 
 //////////////////////// IMAGES
 
@@ -109,7 +133,38 @@ body {
   height: 100px;
 }
 
-.uniOxf{
-  width: 100px;
-  height: 100px;
+//.uniOxf{
+//  width: 100px;
+//  height: 100px;
+//  margin-top: 20px;
+//  float: right;
+//  margin-right: 30px;
+//}
+//
+//.allocate{
+//  width: 100px;
+//  height: 100px;
+//  margin-top: 20px;
+//  float: right;
+//  margin-right: 30px;
+//}
+
+#experience{
+
+  img {
+    margin-top: 20px;
+    float: right;
+    margin-right: 30px;
+  }
+    .uniOxf{
+      width: 100px;
+      height: 100px;
+    }
+
+//    .allocate{
+//      width: 140px;
+//      height: 100px;
+//    }
+
+
 }
