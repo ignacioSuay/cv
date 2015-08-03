@@ -157,6 +157,14 @@ p{
   font-size: large;
 }
 
+#certificates{
+  background-color: #499BEA;
+  color: white;
+  margin-right: -15px;
+  margin-left: -15px;
+  font-size: large;
+}
+
 #certificates {
 
   img {
@@ -175,6 +183,33 @@ p{
     height: 50px;
   }
 }
+
+.downloadSection{
+  height: 180px;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+  background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+}
+
+.downloadText{
+  text-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 0.3px;
+  line-height: 2em;
+  text-align: center;
+}
+
 //////////////////////// IMAGES
 
 .uniVal{

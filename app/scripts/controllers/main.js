@@ -8,12 +8,9 @@
  * Controller of the cvsuaymasApp
  */
 angular.module('cvsuaymasApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $http) {
+    $scope.emailSent= false;
+    $scope.email = {};
 
     $(function() {
       $("body").on("input propertychange", ".floating-label-form-group", function(e) {
@@ -24,4 +21,10 @@ angular.module('cvsuaymasApp')
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
+
+    $scope.sendMeEmail = function(){
+      $http.post("http://www.testfce.com:80/fce/api/sendMeEmail", $scope.email).success(function(data){
+        $scope.emailSent= true;
+      });
+    }
   });
