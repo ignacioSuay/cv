@@ -122,7 +122,13 @@ p{
 
 
 ////////////// SECTIONS
-
+#summary{
+  p{
+    line-height: 1.5em;
+    font-size: large;
+  }
+  margin-bottom: -60px;
+}
 
 #experience {
   ul{
@@ -160,6 +166,11 @@ p{
   margin-right: -15px;
   margin-left: -15px;
   font-size: large;
+
+  p, ul{
+    line-height: 1.5em;
+    font-size: larger;
+  }
 }
 
 #certificates{
