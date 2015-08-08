@@ -10,7 +10,7 @@
 angular.module('cvsuaymasApp')
   .controller('MainCtrl', function ($scope, $http) {
     $scope.emailSent= false;
-    $scope.email = {};
+    $scope.email = {name:"", email:"",phone:"", message:""};
 
     $(function() {
       $("body").on("input propertychange", ".floating-label-form-group", function(e) {
@@ -23,7 +23,7 @@ angular.module('cvsuaymasApp')
     });
 
     $scope.sendMeEmail = function(){
-      $http.post("http://ec2-52-18-48-89.eu-west-1.compute.amazonaws.com:8080/email-spring//api/sendMeEmail", $scope.email).success(function(data){
+      $http.post("http://ec2-52-18-48-89.eu-west-1.compute.amazonaws.com:8080/email-spring/api/sendMeEmail", $scope.email).success(function(data){
         $scope.emailSent= true;
       });
     }

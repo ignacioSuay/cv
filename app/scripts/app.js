@@ -32,4 +32,11 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .config(function ($httpProvider) {
+    // We need to setup some parameters for http requests
+    // These three lines are all you need for CORS support
+    $httpProvider.defaults.useXDomain = true;
+    $httpProvider.defaults.withCredentials = false;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
   });

@@ -381,3 +381,32 @@ form .row:first-child .floating-label-form-group {
   margin-top: -15px;
   margin-bottom: 20px;
 }
+
+// Features Section
+
+.features-item {
+  text-align: center;
+  padding: 20px;
+  height: 270px;
+  .icon {
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    top:25%;
+    position: relative;
+    &:before {
+      font: 1.5em/1.6em "FontAwesome";
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    max-width: 320px;
+    @include center-block();
+  }
+}
+
